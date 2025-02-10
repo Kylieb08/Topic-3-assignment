@@ -70,6 +70,7 @@ namespace Topic_3_assignment
             //Part three
             Console.WriteLine("This is part three of the assignment");
             Console.WriteLine(roundedArea);
+            Console.ReadLine();
 
             //I'm not done this assignment, I'm just bored
         }
