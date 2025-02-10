@@ -20,6 +20,11 @@ namespace Topic_3_assignment
             string firstName, lastName;
             int year;
 
+            //Part three
+            double radius, exponent;
+            decimal area;
+            decimal roundedArea;
+
             //Assigning values
 
             //Part one
@@ -38,6 +43,12 @@ namespace Topic_3_assignment
             lastName = "Banman";
             year = 2026;
 
+            //Part three
+            radius = 5.2;
+            exponent = 2;
+            area = (decimal)(Math.PI * Math.Pow(radius, exponent));
+            roundedArea = Decimal.Round(area, 1);
+
             //Part one
             Console.WriteLine("This is part one of the assignment. It is best read in a New York accent");
             Console.WriteLine("");
@@ -54,6 +65,11 @@ namespace Topic_3_assignment
             //Part two
             Console.WriteLine("This is part two of the assignment");
             Console.WriteLine("My name is " + firstName + " " + lastName + " and I'll graduate in " + year + ".");
+            Console.WriteLine(" ");
+
+            //Part three
+            Console.WriteLine("This is part three of the assignment");
+            Console.WriteLine(roundedArea);
         }
     }
 }
