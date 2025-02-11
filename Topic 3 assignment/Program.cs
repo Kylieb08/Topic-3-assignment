@@ -25,6 +25,9 @@ namespace Topic_3_assignment
             decimal area;
             decimal roundedArea;
 
+            //Part four
+            double a, b, c, exponentPartFour;
+
             //Assigning values
 
             //Part one
@@ -49,6 +52,11 @@ namespace Topic_3_assignment
             area = (decimal)(Math.PI * Math.Pow(radius, exponent));
             roundedArea = Decimal.Round(area, 1);
 
+            //Part four
+            a = 4;
+            b = 5;
+            exponentPartFour = 2;
+
             //Part one
             Console.WriteLine("This is part one of the assignment. It is best read in a New York accent");
             Console.WriteLine("");
@@ -72,12 +80,13 @@ namespace Topic_3_assignment
             Console.WriteLine("This is part three of the assignment");
             Console.WriteLine(" ");
             Console.WriteLine(roundedArea);
-            Console.ReadLine();
 
             //Part four
             Console.WriteLine("This is part four of the assignment");
             Console.WriteLine(" ");
-            Console.WriteLine();
+            Console.WriteLine("c^2 = a^2 + b^2");
+            Console.WriteLine("c^2 = " + (Math.Pow(a, exponentPartFour) + Math.Pow(b, exponentPartFour)));
+            Console.ReadLine();
         }
     }
 }
