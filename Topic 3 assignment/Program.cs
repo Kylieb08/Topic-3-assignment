@@ -64,14 +64,19 @@ namespace Topic_3_assignment
 
             //Part two
             Console.WriteLine("This is part two of the assignment");
+            Console.WriteLine(" ");
             Console.WriteLine("My name is " + firstName + " " + lastName + " and I'll graduate in " + year + ".");
             Console.WriteLine(" ");
 
             //Part three
             Console.WriteLine("This is part three of the assignment");
+            Console.WriteLine(" ");
             Console.WriteLine(roundedArea);
 
-            //I'm not done this assignment, I'm just bored
+            //Part four
+            Console.WriteLine("This is part four of the assignment");
+            Console.WriteLine(" ");
+            Console.WriteLine();
         }
     }
 }
