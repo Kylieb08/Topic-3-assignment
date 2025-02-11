@@ -59,7 +59,6 @@ namespace Topic_3_assignment
 
             //Part one
             Console.WriteLine("This is part one of the assignment. It is best read in a New York accent");
-            Console.WriteLine("");
             Console.WriteLine("Hello, my name is " + name + ".");
             Console.WriteLine("I live in " + placeOfResidence + ".");
             Console.WriteLine("I have " + roomates + " roomates, " + rats + " of them are rats.");
@@ -72,18 +71,16 @@ namespace Topic_3_assignment
 
             //Part two
             Console.WriteLine("This is part two of the assignment");
-            Console.WriteLine(" ");
             Console.WriteLine("My name is " + firstName + " " + lastName + " and I'll graduate in " + year + ".");
             Console.WriteLine(" ");
 
             //Part three
             Console.WriteLine("This is part three of the assignment");
-            Console.WriteLine(" ");
             Console.WriteLine(roundedArea);
 
             //Part four
-            Console.WriteLine("This is part four of the assignment");
             Console.WriteLine(" ");
+            Console.WriteLine("This is part four of the assignment");
             Console.WriteLine("c^2 = a^2 + b^2");
             Console.WriteLine("c^2 = " + (Math.Pow(a, exponentPartFour) + Math.Pow(b, exponentPartFour)));
             Console.ReadLine();
